@@ -1,0 +1,11 @@
+prefix=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 1.0.3
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

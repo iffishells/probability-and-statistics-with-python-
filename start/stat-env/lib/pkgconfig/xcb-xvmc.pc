@@ -1,0 +1,11 @@
+prefix=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB XvMC
+Description: XCB XvMC Extension
+Version: 1.14
+Requires.private: xcb xcb-xv
+Libs: -L${libdir} -lxcb-xvmc
+Cflags: -I${includedir}

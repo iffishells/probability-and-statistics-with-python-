@@ -1,0 +1,11 @@
+prefix=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB XFixes
+Description: XCB XFixes Extension
+Version: 1.14
+Requires.private: xcb xcb-render xcb-shape
+Libs: -L${libdir} -lxcb-xfixes
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

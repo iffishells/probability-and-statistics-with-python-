@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpcrecpp
+Description: PCRECPP - C++ wrapper for PCRE
+Version: 8.44
+Libs: -L${libdir} -lpcre -lpcrecpp
+Cflags: -I${includedir} 

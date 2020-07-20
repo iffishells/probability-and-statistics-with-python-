@@ -1,0 +1,13 @@
+prefix=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.10
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/lib -licui18n -licuuc -licudata -lpthread -L/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/lib -lz -L/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/lib -llzma -L/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/lib -lm  
+Cflags: -I${includedir}/libxml2 -I/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/include 

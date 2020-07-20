@@ -1,0 +1,14 @@
+prefix=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 UiTools
+Description: Qt UiTools module
+Version: 5.9.7
+Libs: -L${libdir} -lQt5UiTools 
+Libs.private: -L/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/lib -L/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/lib -lQt5Widgets -lQt5Gui -lQt5Core -lpthread -lQt5Widgets -L/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/lib -L/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/lib -lQt5Gui -lQt5Core -lpthread -lGL 
+Cflags: -I${includedir}/QtUiTools -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env
+exec_prefix=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env
+libdir=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/lib
+includedir=/home/ifti/Documents/Semester-5/prop-stat/start/stat-env/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.5
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lrt  -lpthread
